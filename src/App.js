@@ -11,6 +11,8 @@ function App() {
       <div>
         <button onClick={() => setLit(true)}>Switch ON</button>
         <button onClick={() => setLit(false)}>Switch OFF</button>
+      </div>
+      <div>
         <button onClick={() => setTemp(temp - 1)}>Decrease Temperature</button>
         <button onClick={() => setTemp(temp + 1)}>Increase Temperature</button>
       </div>
